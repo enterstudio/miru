@@ -25,7 +25,7 @@
         <jersey-version>2.13</jersey-version>
         <jetty-version>9.1.1.v20140108</jetty-version>
         <hk2-version>2.3.0-b10</hk2-version>
-        <lucene-version>6.2.1</lucene-version>
+        <lucene-version>6.6.2</lucene-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <test.excludedGroups>blocked-by-jira,slow</test.excludedGroups>
         <maven.build.timestamp.format>yyyy-MM-dd-HH:mm:ss.S</maven.build.timestamp.format>
@@ -542,7 +542,7 @@
                                 <failOnWarning>true</failOnWarning>
                                 <ignoreNonCompile>true</ignoreNonCompile>
                                 <outputXML>true</outputXML>
-                                <usedDependencies combine.children="override" />
+                                <usedDependencies combine.children="override"/>
                             </configuration>
                         </execution>
                     </executions>

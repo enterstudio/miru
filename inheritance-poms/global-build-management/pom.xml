@@ -302,12 +302,12 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>14.0</version>
+                <version>r03</version>
             </dependency>
             <dependency>
                 <groupId>com.google.template</groupId>
                 <artifactId>soy</artifactId>
-                <version>2012-12-21</version>
+                <version>2015-02-10</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
@@ -542,7 +542,7 @@
                                 <failOnWarning>true</failOnWarning>
                                 <ignoreNonCompile>true</ignoreNonCompile>
                                 <outputXML>true</outputXML>
-                                <usedDependencies combine.children="override" />
+                                <usedDependencies combine.children="override"/>
                             </configuration>
                         </execution>
                     </executions>

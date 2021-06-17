@@ -302,7 +302,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>14.0</version>
+                <version>30.0-android</version>
             </dependency>
             <dependency>
                 <groupId>com.google.template</groupId>
@@ -542,7 +542,7 @@
                                 <failOnWarning>true</failOnWarning>
                                 <ignoreNonCompile>true</ignoreNonCompile>
                                 <outputXML>true</outputXML>
-                                <usedDependencies combine.children="override" />
+                                <usedDependencies combine.children="override"/>
                             </configuration>
                         </execution>
                     </executions>

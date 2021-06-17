@@ -302,7 +302,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>14.0</version>
+                <version>30.0-android</version>
             </dependency>
             <dependency>
                 <groupId>com.google.template</groupId>
@@ -412,7 +412,7 @@
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
-                <version>2.4</version>
+                <version>2.7</version>
             </dependency>
             <dependency>
                 <groupId>oauth.signpost</groupId>
@@ -542,7 +542,7 @@
                                 <failOnWarning>true</failOnWarning>
                                 <ignoreNonCompile>true</ignoreNonCompile>
                                 <outputXML>true</outputXML>
-                                <usedDependencies combine.children="override" />
+                                <usedDependencies combine.children="override"/>
                             </configuration>
                         </execution>
                     </executions>

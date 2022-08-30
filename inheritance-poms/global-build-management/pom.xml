@@ -437,7 +437,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>6.8.5</version>
+                <version>6.8.8</version>
             </dependency>
 
             <dependency>
@@ -542,7 +542,7 @@
                                 <failOnWarning>true</failOnWarning>
                                 <ignoreNonCompile>true</ignoreNonCompile>
                                 <outputXML>true</outputXML>
-                                <usedDependencies combine.children="override" />
+                                <usedDependencies combine.children="override"/>
                             </configuration>
                         </execution>
                     </executions>
